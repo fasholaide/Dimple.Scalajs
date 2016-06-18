@@ -7,8 +7,53 @@
 		revision="1.0"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty"
-		date="20160616100732"/>
+		date="20160617190916"/>
 	<dependencies>
+		<module organisation="org.singlespaced" name="scalajs-d3_sjs0.6_2.11">
+			<revision name="0.3.3" status="release" pubdate="20160402134534" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spaced/scala-js-d3" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="BSD New" url="https://github.com/spaced/scala-js-d3/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3250" time="0" location="/Users/bfashola/.ivy2/cache/org.singlespaced/scalajs-d3_sjs0.6_2.11/ivy-0.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/scalajs-d3_sjs0.6_2.11-0.3.3.pom"/>
+				<caller organisation="default" name="scalatags$sources_sjs0.6_2.11" conf="compile-internal, compile, provided, optional" rev="0.3.3" rev-constraint-default="0.3.3" rev-constraint-dynamic="0.3.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalajs-d3_sjs0.6_2.11" type="jar" ext="jar" status="no" details="" size="397157" time="0" location="/Users/bfashola/.ivy2/cache/org.singlespaced/scalajs-d3_sjs0.6_2.11/jars/scalajs-d3_sjs0.6_2.11-0.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/scalajs-d3_sjs0.6_2.11-0.3.3.jar"/>
+					</artifact>
+					<artifact name="scalajs-d3_sjs0.6_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="16978" time="477" location="/Users/bfashola/.ivy2/cache/org.singlespaced/scalajs-d3_sjs0.6_2.11/srcs/scalajs-d3_sjs0.6_2.11-0.3.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/scalajs-d3_sjs0.6_2.11-0.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.webjars" name="d3js">
+			<revision name="3.5.16" status="release" pubdate="20160401074922" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="The BSD 3-Clause License" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3818" time="0" location="/Users/bfashola/.ivy2/cache/org.webjars/d3js/ivy-3.5.16.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/webjars/d3js/3.5.16/d3js-3.5.16.pom"/>
+				<caller organisation="default" name="scalatags$sources_sjs0.6_2.11" conf="compile-internal, compile, provided, optional" rev="3.5.16" rev-constraint-default="3.5.16" rev-constraint-dynamic="3.5.16" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="d3js" type="jar" ext="jar" status="no" details="" size="130858" time="0" location="/Users/bfashola/.ivy2/cache/org.webjars/d3js/jars/d3js-3.5.16.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/webjars/d3js/3.5.16/d3js-3.5.16.jar"/>
+					</artifact>
+					<artifact name="d3js" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3784" time="410" location="/Users/bfashola/.ivy2/cache/org.webjars/d3js/srcs/d3js-3.5.16-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/webjars/d3js/3.5.16/d3js-3.5.16-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.11">
+			<revision name="0.9.0" status="release" pubdate="20160213114347" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="MIT" url="http://opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2804" time="0" location="/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/scalajs-dom_sjs0.6_2.11-0.9.0.pom"/>
+				<caller organisation="default" name="scalatags$sources_sjs0.6_2.11" conf="compile-internal, compile, provided, optional" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalajs-dom_sjs0.6_2.11" type="jar" ext="jar" status="no" details="" size="1859791" time="0" location="/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/jars/scalajs-dom_sjs0.6_2.11-0.9.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/scalajs-dom_sjs0.6_2.11-0.9.0.jar"/>
+					</artifact>
+					<artifact name="scalajs-dom_sjs0.6_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="200889" time="685" location="/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/srcs/scalajs-dom_sjs0.6_2.11-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/scalajs-dom_sjs0.6_2.11-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.scalatags" name="scalatags_2.10">
 			<revision name="0.1.4" status="release" pubdate="20130801105715" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/scalatags" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
 				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>

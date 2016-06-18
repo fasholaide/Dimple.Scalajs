@@ -4,7 +4,7 @@
 		module="scalatags$sbt_sjs0.6_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160616100730"
+		publication="20160617190915"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

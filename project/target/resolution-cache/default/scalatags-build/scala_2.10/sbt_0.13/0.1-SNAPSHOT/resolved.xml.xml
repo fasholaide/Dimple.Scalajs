@@ -4,7 +4,7 @@
 		module="scalatags-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160616095838"
+		publication="20160617190853"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

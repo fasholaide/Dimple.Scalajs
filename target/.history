@@ -1,3 +1,6 @@
 run
 :quit
 exit
+run
+:quit
+exit

@@ -1052,9 +1052,9 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar
 [debug] 	[NOT REQUIRED] junit#junit;4.10!junit.jar
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar
-[debug] :: resolution report :: resolve 2000ms :: artifacts dl 28ms
+[debug] :: resolution report :: resolve 1464ms :: artifacts dl 22ms
 [debug] 	report for default#scalatags$sbt_sjs0.6_2.11;1.0 default produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags$sbt_sjs0.6_2.11-default.xml
-[debug] 	resolve done (2000ms resolve - 28ms download)
+[debug] 	resolve done (1464ms resolve - 22ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#scalatags$sources_sjs0.6_2.11;1.0
 [debug] 	confs: [default]
@@ -1543,6 +1543,6 @@
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-js-envs_2.10;0.6.9!scalajs-js-envs_2.10.jar(src)
 [debug] 	[NOT REQUIRED] io.apigee#rhino;1.7R5pre4!rhino.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.9!scalajs-sbt-test-adapter_2.10.jar(src)
-[debug] :: resolution report :: resolve 148ms :: artifacts dl 20ms
+[debug] :: resolution report :: resolve 98ms :: artifacts dl 16ms
 [debug] 	report for default#scalatags$sources_sjs0.6_2.11;1.0 default produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags$sources_sjs0.6_2.11-default.xml
-[debug] 	resolve done (148ms resolve - 20ms download)
+[debug] 	resolve done (98ms resolve - 16ms download)
