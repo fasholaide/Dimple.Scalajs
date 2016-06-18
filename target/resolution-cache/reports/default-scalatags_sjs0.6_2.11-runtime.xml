@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="scalatags_sjs0.6_2.11"
+		revision="1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty"
+		date="20160616100215"/>
+	<dependencies>
+		<module organisation="com.scalatags" name="scalatags_2.10">
+			<revision name="0.1.4" status="release" pubdate="20130801105715" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/scalatags" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2661" time="0" location="/Users/bfashola/.ivy2/cache/com.scalatags/scalatags_2.10/ivy-0.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/scalatags/scalatags_2.10/0.1.4/scalatags_2.10-0.1.4.pom"/>
+				<caller organisation="default" name="scalatags_sjs0.6_2.11" conf="compile, runtime" rev="0.1.4" rev-constraint-default="0.1.4" rev-constraint-dynamic="0.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalatags_2.10" type="jar" ext="jar" status="no" details="" size="57017" time="0" location="/Users/bfashola/.ivy2/cache/com.scalatags/scalatags_2.10/jars/scalatags_2.10-0.1.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/scalatags/scalatags_2.10/0.1.4/scalatags_2.10-0.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-library_2.11">
+			<revision name="0.6.9" status="release" pubdate="20160429130026" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.9/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2993" time="0" location="/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-library_2.11/ivy-0.6.9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-js/scalajs-library_2.11/0.6.9/scalajs-library_2.11-0.6.9.pom"/>
+				<caller organisation="default" name="scalatags_sjs0.6_2.11" conf="compile, runtime" rev="0.6.9" rev-constraint-default="0.6.9" rev-constraint-dynamic="0.6.9" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalajs-library_2.11" type="jar" ext="jar" status="no" details="" size="6704406" time="0" location="/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-library_2.11/jars/scalajs-library_2.11-0.6.9.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-js/scalajs-library_2.11/0.6.9/scalajs-library_2.11-0.6.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.webjars.bower" name="dimple">
+			<revision name="2.1.6" status="release" pubdate="20160304140007" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="MIT" url="https://spdx.org/licenses/MIT#licenseText"/>
+				<metadata-artifact status="no" details="" size="2587" time="0" location="/Users/bfashola/.ivy2/cache/org.webjars.bower/dimple/ivy-2.1.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/webjars/bower/dimple/2.1.6/dimple-2.1.6.pom"/>
+				<caller organisation="default" name="scalatags_sjs0.6_2.11" conf="compile, runtime" rev="2.1.6" rev-constraint-default="2.1.6" rev-constraint-dynamic="2.1.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="dimple" type="jar" ext="jar" status="no" details="" size="1083830" time="0" location="/Users/bfashola/.ivy2/cache/org.webjars.bower/dimple/jars/dimple-2.1.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/webjars/bower/dimple/2.1.6/dimple-2.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.webjars.bower" name="d3">
+			<revision name="3.5.17" status="release" pubdate="20160509005151" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD-3-Clause" url="https://spdx.org/licenses/BSD-3-Clause#licenseText"/>
+				<metadata-artifact status="no" details="" size="2420" time="0" location="/Users/bfashola/.ivy2/cache/org.webjars.bower/d3/ivy-3.5.17.xml" searched="true" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/bower/d3/3.5.17/d3-3.5.17.pom"/>
+				<caller organisation="org.webjars.bower" name="dimple" conf="default, compile, runtime, master" rev="[3.5.2,)" rev-constraint-default="[3.5.2,)" rev-constraint-dynamic="[3.5.2,)" callerrev="2.1.6"/>
+				<artifacts>
+					<artifact name="d3" type="jar" ext="jar" status="no" details="" size="131911" time="0" location="/Users/bfashola/.ivy2/cache/org.webjars.bower/d3/jars/d3-3.5.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/webjars/bower/d3/3.5.17/d3-3.5.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160308201604" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/bfashola/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="default" name="scalatags_sjs0.6_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0"/>
+				<caller organisation="org.scala-js" name="scalajs-library_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.6.9"/>
+				<caller organisation="com.scalatags" name="scalatags_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.1.4"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="/Users/bfashola/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.10.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.11.8"/>
+				<caller organisation="com.scalatags" name="scalatags_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.1.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
