@@ -15,7 +15,7 @@ class Series(
               colorAxis: Axis = null,
               pieAxis: Axis = null,
               plotFunction: Plot,
-              aggregateMethod: js.Function2[Any, Any, Int],
+              aggregateMethod: js.Function4[Any, Any, Any, Any, Int],
               stacked: Boolean
             ) extends js.Object {
   val aggregate = js.native

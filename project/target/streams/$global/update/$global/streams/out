@@ -1,11 +1,11 @@
-[info] Updating {file:/Users/bfashola/IdeaProjects/Scalatags/project/}scalatags-build...
-[debug] :: resolving dependencies :: default#scalatags-build;0.1-SNAPSHOT
+[info] Updating {file:/Users/bfashola/workspace/Dimple.Scalajs/project/}dimple-scalajs-build...
+[debug] :: resolving dependencies :: default#dimple-scalajs-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.9 [compile->default(compile)]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.9 [compile->default(compile)]
 [info] Resolving org.scala-js#sbt-scalajs;0.6.9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#sbt-scalajs;0.6.9 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-js#sbt-scalajs;0.6.9
@@ -305,9 +305,9 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.9 [compile->default(compile)]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.9->org.scala-js#scalajs-tools_2.10;0.6.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
@@ -522,10 +522,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.9 [compile->default(compile)]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.9->org.scala-js#scalajs-tools_2.10;0.6.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
@@ -740,12 +740,12 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.9 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.9
@@ -1601,11 +1601,11 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.5 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.9 [compile->default(compile)]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.9->org.scala-js#scalajs-tools_2.10;0.6.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
@@ -1819,13 +1819,13 @@
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.9->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.9 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->compile]
@@ -2460,10 +2460,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.5 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.9 [compile->default(compile)]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.9->org.scala-js#scalajs-tools_2.10;0.6.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
@@ -2677,13 +2677,13 @@
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.9->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.9 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.9 [compile->default(compile)]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.9->org.scala-js#scalajs-tools_2.10;0.6.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
@@ -2897,13 +2897,13 @@
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.9->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.9 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->compile]
@@ -3538,18 +3538,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.5 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#scalatags-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->default]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->runtime]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies for default#dimple-scalajs-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->default]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->default]
@@ -3567,8 +3567,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->master]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#jline;2.10.5 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.5 {optional=[compile(*), master(*)]}
@@ -3581,11 +3581,11 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.5->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->default]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->runtime]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->compile]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->master]
-[debug] == resolving dependencies default#scalatags-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->default]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies default#dimple-scalajs-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-js#sbt-scalajs;0.6.9!sbt-scalajs.jar
@@ -3658,19 +3658,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 3149ms :: artifacts dl 49ms
-[debug] 	report for default#scalatags-build;0.1-SNAPSHOT compile produced in /Users/bfashola/IdeaProjects/Scalatags/project/target/resolution-cache/reports/default-scalatags-build-compile.xml
-[debug] 	report for default#scalatags-build;0.1-SNAPSHOT runtime produced in /Users/bfashola/IdeaProjects/Scalatags/project/target/resolution-cache/reports/default-scalatags-build-runtime.xml
-[debug] 	report for default#scalatags-build;0.1-SNAPSHOT test produced in /Users/bfashola/IdeaProjects/Scalatags/project/target/resolution-cache/reports/default-scalatags-build-test.xml
-[debug] 	report for default#scalatags-build;0.1-SNAPSHOT provided produced in /Users/bfashola/IdeaProjects/Scalatags/project/target/resolution-cache/reports/default-scalatags-build-provided.xml
-[debug] 	report for default#scalatags-build;0.1-SNAPSHOT optional produced in /Users/bfashola/IdeaProjects/Scalatags/project/target/resolution-cache/reports/default-scalatags-build-optional.xml
-[debug] 	report for default#scalatags-build;0.1-SNAPSHOT compile-internal produced in /Users/bfashola/IdeaProjects/Scalatags/project/target/resolution-cache/reports/default-scalatags-build-compile-internal.xml
-[debug] 	report for default#scalatags-build;0.1-SNAPSHOT runtime-internal produced in /Users/bfashola/IdeaProjects/Scalatags/project/target/resolution-cache/reports/default-scalatags-build-runtime-internal.xml
-[debug] 	report for default#scalatags-build;0.1-SNAPSHOT test-internal produced in /Users/bfashola/IdeaProjects/Scalatags/project/target/resolution-cache/reports/default-scalatags-build-test-internal.xml
-[debug] 	report for default#scalatags-build;0.1-SNAPSHOT plugin produced in /Users/bfashola/IdeaProjects/Scalatags/project/target/resolution-cache/reports/default-scalatags-build-plugin.xml
-[debug] 	report for default#scalatags-build;0.1-SNAPSHOT sources produced in /Users/bfashola/IdeaProjects/Scalatags/project/target/resolution-cache/reports/default-scalatags-build-sources.xml
-[debug] 	report for default#scalatags-build;0.1-SNAPSHOT docs produced in /Users/bfashola/IdeaProjects/Scalatags/project/target/resolution-cache/reports/default-scalatags-build-docs.xml
-[debug] 	report for default#scalatags-build;0.1-SNAPSHOT pom produced in /Users/bfashola/IdeaProjects/Scalatags/project/target/resolution-cache/reports/default-scalatags-build-pom.xml
-[debug] 	report for default#scalatags-build;0.1-SNAPSHOT scala-tool produced in /Users/bfashola/IdeaProjects/Scalatags/project/target/resolution-cache/reports/default-scalatags-build-scala-tool.xml
-[debug] 	resolve done (3149ms resolve - 49ms download)
+[debug] :: resolution report :: resolve 2399ms :: artifacts dl 53ms
+[debug] 	report for default#dimple-scalajs-build;0.1-SNAPSHOT compile produced in /Users/bfashola/workspace/Dimple.Scalajs/project/target/resolution-cache/reports/default-dimple-scalajs-build-compile.xml
+[debug] 	report for default#dimple-scalajs-build;0.1-SNAPSHOT runtime produced in /Users/bfashola/workspace/Dimple.Scalajs/project/target/resolution-cache/reports/default-dimple-scalajs-build-runtime.xml
+[debug] 	report for default#dimple-scalajs-build;0.1-SNAPSHOT test produced in /Users/bfashola/workspace/Dimple.Scalajs/project/target/resolution-cache/reports/default-dimple-scalajs-build-test.xml
+[debug] 	report for default#dimple-scalajs-build;0.1-SNAPSHOT provided produced in /Users/bfashola/workspace/Dimple.Scalajs/project/target/resolution-cache/reports/default-dimple-scalajs-build-provided.xml
+[debug] 	report for default#dimple-scalajs-build;0.1-SNAPSHOT optional produced in /Users/bfashola/workspace/Dimple.Scalajs/project/target/resolution-cache/reports/default-dimple-scalajs-build-optional.xml
+[debug] 	report for default#dimple-scalajs-build;0.1-SNAPSHOT compile-internal produced in /Users/bfashola/workspace/Dimple.Scalajs/project/target/resolution-cache/reports/default-dimple-scalajs-build-compile-internal.xml
+[debug] 	report for default#dimple-scalajs-build;0.1-SNAPSHOT runtime-internal produced in /Users/bfashola/workspace/Dimple.Scalajs/project/target/resolution-cache/reports/default-dimple-scalajs-build-runtime-internal.xml
+[debug] 	report for default#dimple-scalajs-build;0.1-SNAPSHOT test-internal produced in /Users/bfashola/workspace/Dimple.Scalajs/project/target/resolution-cache/reports/default-dimple-scalajs-build-test-internal.xml
+[debug] 	report for default#dimple-scalajs-build;0.1-SNAPSHOT plugin produced in /Users/bfashola/workspace/Dimple.Scalajs/project/target/resolution-cache/reports/default-dimple-scalajs-build-plugin.xml
+[debug] 	report for default#dimple-scalajs-build;0.1-SNAPSHOT sources produced in /Users/bfashola/workspace/Dimple.Scalajs/project/target/resolution-cache/reports/default-dimple-scalajs-build-sources.xml
+[debug] 	report for default#dimple-scalajs-build;0.1-SNAPSHOT docs produced in /Users/bfashola/workspace/Dimple.Scalajs/project/target/resolution-cache/reports/default-dimple-scalajs-build-docs.xml
+[debug] 	report for default#dimple-scalajs-build;0.1-SNAPSHOT pom produced in /Users/bfashola/workspace/Dimple.Scalajs/project/target/resolution-cache/reports/default-dimple-scalajs-build-pom.xml
+[debug] 	report for default#dimple-scalajs-build;0.1-SNAPSHOT scala-tool produced in /Users/bfashola/workspace/Dimple.Scalajs/project/target/resolution-cache/reports/default-dimple-scalajs-build-scala-tool.xml
+[debug] 	resolve done (2399ms resolve - 53ms download)
 [info] Done updating.

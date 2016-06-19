@@ -7,6 +7,7 @@ import scala.scalajs.js
 import scala.scalajs.js.`|`
 import scala.scalajs.js.annotation.JSName
 
+
 @JSName("dimple.chart")
 @js.native
 class Chart(val svg: SvgObject, val data: Xhr) extends js.Object {
@@ -49,7 +50,7 @@ class Chart(val svg: SvgObject, val data: Xhr) extends js.Object {
 
   def assignColor(tag: String, fill: String, stroke: String = "", opacity: Double): Color = js.native
 
-  def draw(duration: Double = 0, noDataChange: Boolean = false) = js.native
+  def draw(duration: Double = 0, noDataChange: Boolean = false): Unit = js.native
 
   def getClass(tag: String): String = js.native
 

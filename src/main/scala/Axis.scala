@@ -6,7 +6,13 @@ import scala.scalajs.js.annotation.JSName
 
 @JSName("dimple.axis")
 @js.native
-class Axis(chart, position, categoryFields, measure, timeField) extends js.Object {
+class Axis(
+            chart: Chart,
+            position: String,
+            categoryFields: String | js.Array[String] = null,
+            measure: String = null,
+            timeField: String = null
+          ) extends js.Object {
   val colors = js.native
   val clamp = js.native
   val fontSize = js.native
@@ -30,6 +36,7 @@ class Axis(chart, position, categoryFields, measure, timeField) extends js.Objec
   val useLog = js.native
 
   def addGroupOrderRule(ordering: String | js.Array[String] | js.Function2[Any, Any, Int], desc: Boolean = false): Unit = js.native
-  def addOrderRule(ordering: String | js.Array[String] | js.Function2[Any, Any, Int] , desc: Boolean = false): Unit = js.native
+
+  def addOrderRule(ordering: String | js.Array[String] | js.Function2[Any, Any, Int], desc: Boolean = false): Unit = js.native
 
 }

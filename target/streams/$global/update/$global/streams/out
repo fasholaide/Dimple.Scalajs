@@ -1,26 +1,26 @@
-[info] Updating {file:/Users/bfashola/IdeaProjects/Scalatags/}scalatags...
-[debug] :: resolving dependencies :: default#scalatags_sjs0.6_2.11;1.0
+[info] Updating {file:/Users/bfashola/workspace/Dimple.Scalajs/}dimple-scalajs...
+[debug] :: resolving dependencies :: scalatags#scalatags_sjs0.6_2.11;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e9aadff
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b6d19de
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->default(compile)]
 [info] Resolving org.webjars.bower#dimple;2.1.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.webjars.bower#dimple;2.1.6 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.webjars.bower#dimple;2.1.6
 [debug] 	found org.webjars.bower#dimple;2.1.6 in sbt-chain
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->compile]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [compile->master(compile)]
 [info] Resolving org.webjars.bower#d3;[3.5.2,) ...
 [debug] sbt-chain: Checking cache for: dependency: org.webjars.bower#d3;[3.5.2,) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -44,29 +44,29 @@
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [compile->compile]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [runtime->runtime(*)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
 [info] Resolving org.scala-js#scalajs-library_2.11;0.6.9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-library_2.11;0.6.9 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-library_2.11;0.6.9
 [debug] 	found org.scala-js#scalajs-library_2.11;0.6.9 in sbt-chain
 [debug] 	[0.6.9] org.scala-js#scalajs-library_2.11;0.6.9
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->default(compile)]
 [info] Resolving com.scalatags#scalatags_2.10;0.1.4 ...
 [debug] sbt-chain: Checking cache for: dependency: com.scalatags#scalatags_2.10;0.1.4 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.scalatags#scalatags_2.10;0.1.4
 [debug] 	found com.scalatags#scalatags_2.10;0.1.4 in sbt-chain
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->compile]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
@@ -74,27 +74,14 @@
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
 [info] Resolving org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 {compile=[default(compile)]}
-[info] Resolving org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 {compile=[default(compile)]}
-[debug] 		tried /Users/bfashola/.ivy2/local/org.scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0
-[debug] 		tried https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/scalajs-dom_sjs0.6_2.11-0.9.0.pom
-[debug] 	jcenter: found md file for org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0
-[debug] 		=> https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/scalajs-dom_sjs0.6_2.11-0.9.0.pom (0.9.0)
-[debug] downloading https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/scalajs-dom_sjs0.6_2.11-0.9.0.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/scalajs-dom_sjs0.6_2.11-0.9.0.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/scalajs-dom_sjs0.6_2.11-0.9.0.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/scalajs-dom_sjs0.6_2.11-0.9.0.pom
-[debug] 	[SUCCESSFUL ] org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0!scalajs-dom_sjs0.6_2.11.pom(pom.original) (396ms)
-[debug] 		tried /Users/bfashola/.ivy2/local/org.scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/jars/scalajs-dom_sjs0.6_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/scalajs-dom_sjs0.6_2.11-0.9.0.jar
-[debug] 	found org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 in jcenter
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
+[debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0
+[debug] 	found org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 in sbt-chain
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
@@ -109,50 +96,21 @@
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->default(compile)]
 [info] Resolving org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 {compile=[default(compile)]}
-[info] Resolving org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 {compile=[default(compile)]}
-[debug] 		tried /Users/bfashola/.ivy2/local/org.singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3
-[debug] 		tried https://jcenter.bintray.com/org/singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/scalajs-d3_sjs0.6_2.11-0.3.3.pom
-[debug] 	jcenter: found md file for org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3
-[debug] 		=> https://jcenter.bintray.com/org/singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/scalajs-d3_sjs0.6_2.11-0.3.3.pom (0.3.3)
-[debug] downloading https://jcenter.bintray.com/org/singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/scalajs-d3_sjs0.6_2.11-0.3.3.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/scalajs-d3_sjs0.6_2.11-0.3.3.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/scalajs-d3_sjs0.6_2.11-0.3.3.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/scalajs-d3_sjs0.6_2.11-0.3.3.pom
-[debug] 	[SUCCESSFUL ] org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3!scalajs-d3_sjs0.6_2.11.pom(pom.original) (956ms)
-[debug] 		tried /Users/bfashola/.ivy2/local/org.singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/jars/scalajs-d3_sjs0.6_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/org/singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/scalajs-d3_sjs0.6_2.11-0.3.3.jar
-[debug] 	found org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 in jcenter
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->compile]
+[debug] sbt-chain: module revision found in cache: org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3
+[debug] 	found org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 in sbt-chain
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->compile]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.webjars#d3js;3.5.16 [compile->master(compile)]
 [info] Resolving org.webjars#d3js;3.5.16 ...
 [debug] sbt-chain: Checking cache for: dependency: org.webjars#d3js;3.5.16 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.webjars#d3js;3.5.16 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.webjars#d3js;3.5.16 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/bfashola/.ivy2/local/org.webjars/d3js/3.5.16/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.webjars#d3js;3.5.16
-[debug] 		tried https://jcenter.bintray.com/org/webjars/d3js/3.5.16/d3js-3.5.16.pom
-[debug] 	jcenter: found md file for org.webjars#d3js;3.5.16
-[debug] 		=> https://jcenter.bintray.com/org/webjars/d3js/3.5.16/d3js-3.5.16.pom (3.5.16)
-[debug] downloading https://jcenter.bintray.com/org/webjars/d3js/3.5.16/d3js-3.5.16.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/webjars/d3js/3.5.16/d3js-3.5.16.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/webjars/d3js/3.5.16/d3js-3.5.16.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/webjars/d3js/3.5.16/d3js-3.5.16.pom
-[debug] 	[SUCCESSFUL ] org.webjars#d3js;3.5.16!d3js.pom(pom.original) (380ms)
-[info] Resolving org.sonatype.oss#oss-parent;7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 		tried /Users/bfashola/.ivy2/local/org.webjars/d3js/3.5.16/jars/d3js.jar
-[debug] 		tried https://jcenter.bintray.com/org/webjars/d3js/3.5.16/d3js-3.5.16.jar
-[debug] 	found org.webjars#d3js;3.5.16 in jcenter
+[debug] sbt-chain: module revision found in cache: org.webjars#d3js;3.5.16
+[debug] 	found org.webjars#d3js;3.5.16 in sbt-chain
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.webjars#d3js;3.5.16 [compile->compile(*)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.webjars#d3js;3.5.16 [compile->runtime(*)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.webjars#d3js;3.5.16 [compile->compile]
@@ -173,33 +131,33 @@
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [runtime]
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->compile]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [runtime]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->compile]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [compile->master(compile)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [compile->compile(*)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [runtime->runtime(*)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->compile]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
@@ -207,10 +165,10 @@
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
@@ -225,10 +183,10 @@
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->compile]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.webjars#d3js;3.5.16 [compile->master(compile)]
@@ -248,34 +206,34 @@
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->master]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [test]
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [runtime]
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->compile]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [test]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [runtime]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->compile]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [compile->master(compile)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [compile->compile(*)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [runtime->runtime(*)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->compile]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
@@ -283,10 +241,10 @@
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
@@ -301,10 +259,10 @@
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->compile]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.webjars#d3js;3.5.16 [compile->master(compile)]
@@ -324,37 +282,37 @@
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->master]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [provided]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [optional]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [compile-internal]
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->compile]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [compile-internal]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->compile]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [compile->master(compile)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [compile->compile(*)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [runtime->runtime(*)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->compile]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
@@ -362,10 +320,10 @@
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
@@ -380,10 +338,10 @@
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->compile]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.webjars#d3js;3.5.16 [compile->master(compile)]
@@ -403,36 +361,36 @@
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->master]
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [optional]
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [provided]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->master]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [optional]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [runtime-internal]
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [runtime]
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->compile]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [runtime-internal]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [runtime]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->compile]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [compile->master(compile)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [compile->compile(*)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [runtime->runtime(*)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->compile]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
@@ -440,10 +398,10 @@
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
@@ -458,10 +416,10 @@
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->compile]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.webjars#d3js;3.5.16 [compile->master(compile)]
@@ -481,36 +439,36 @@
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->master]
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [optional]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->master]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [test-internal]
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [test]
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [runtime]
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->compile]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [test-internal]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [test]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [runtime]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->compile]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [compile->master(compile)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [compile->compile(*)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [runtime->runtime(*)]
 [debug] == resolving dependencies org.webjars.bower#dimple;2.1.6->org.webjars.bower#d3;[3.5.2,) [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->compile]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
@@ -518,10 +476,10 @@
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies com.scalatags#scalatags_2.10;0.1.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
@@ -536,10 +494,10 @@
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->compile]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.webjars#d3js;3.5.16 [compile->master(compile)]
@@ -559,19 +517,19 @@
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->master]
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [optional]
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [provided]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->master]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [optional]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [plugin]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-compiler_2.11.8;0.6.9 [plugin->default(compile)]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [plugin]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-compiler_2.11.8;0.6.9 [plugin->default(compile)]
 [info] Resolving org.scala-js#scalajs-compiler_2.11.8;0.6.9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-compiler_2.11.8;0.6.9 {plugin=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-compiler_2.11.8;0.6.9
 [debug] 	found org.scala-js#scalajs-compiler_2.11.8;0.6.9 in sbt-chain
 [debug] 	[0.6.9] org.scala-js#scalajs-compiler_2.11.8;0.6.9
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-compiler_2.11.8;0.6.9 [plugin->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-compiler_2.11.8;0.6.9 [plugin->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-compiler_2.11.8;0.6.9 [plugin->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-compiler_2.11.8;0.6.9 [plugin->compile]
 [debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.8;0.6.9->org.scala-lang#scala-compiler;2.11.8 [compile->master(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -639,18 +597,18 @@
 [debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.8;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.8;0.6.9->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.8;0.6.9->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-compiler_2.11.8;0.6.9 [plugin->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-compiler_2.11.8;0.6.9 [plugin->master]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [sources]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [docs]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [pom]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [scala-tool]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [scala-tool]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->default]
@@ -690,28 +648,28 @@
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->optional(default)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->master(compile)]
 [info] Resolving jline#jline;2.12.1 ...
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}
 [debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
 [debug] 	found jline#jline;2.12.1 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->compile(*)]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->default]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->optional(default)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->default]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->optional(default)]
 [debug] resolving dependencies for configuration 'phantom-js-jetty'
-[debug] == resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [phantom-js-jetty]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
+[debug] == resolving dependencies for scalatags#scalatags_sjs0.6_2.11;1.0 [phantom-js-jetty]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 ...
 [debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.16.v20140903
 [debug] 	found org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 in sbt-chain
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->compile]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->master(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.16.v20140903 ...
 [debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-util;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -750,14 +708,14 @@
 [debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->compile]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->master]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-server;8.1.16.v20140903 ...
 [debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-server;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-server;8.1.16.v20140903
 [debug] 	found org.eclipse.jetty#jetty-server;8.1.16.v20140903 in sbt-chain
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->runtime]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->compile]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->runtime]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->compile]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
 [debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -782,32 +740,17 @@
 [debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [runtime->compile]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->compile]
-[debug] == resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->master]
+[debug] == resolving dependencies scalatags#scalatags_sjs0.6_2.11;1.0->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
 [debug] 	[NOT REQUIRED] org.webjars.bower#dimple;2.1.6!dimple.jar
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-library_2.11;0.6.9!scalajs-library_2.11.jar
 [debug] 	[NOT REQUIRED] com.scalatags#scalatags_2.10;0.1.4!scalatags_2.10.jar
-[debug] 		tried https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/scalajs-dom_sjs0.6_2.11-0.9.0.jar
-[info] downloading https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/scalajs-dom_sjs0.6_2.11-0.9.0.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/scalajs-dom_sjs0.6_2.11-0.9.0.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/scalajs-dom_sjs0.6_2.11-0.9.0.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.0/scalajs-dom_sjs0.6_2.11-0.9.0.jar
-[info] 	[SUCCESSFUL ] org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0!scalajs-dom_sjs0.6_2.11.jar (2334ms)
-[debug] 		tried https://jcenter.bintray.com/org/singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/scalajs-d3_sjs0.6_2.11-0.3.3.jar
-[info] downloading https://jcenter.bintray.com/org/singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/scalajs-d3_sjs0.6_2.11-0.3.3.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/scalajs-d3_sjs0.6_2.11-0.3.3.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/scalajs-d3_sjs0.6_2.11-0.3.3.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/singlespaced/scalajs-d3_sjs0.6_2.11/0.3.3/scalajs-d3_sjs0.6_2.11-0.3.3.jar
-[info] 	[SUCCESSFUL ] org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3!scalajs-d3_sjs0.6_2.11.jar (923ms)
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0!scalajs-dom_sjs0.6_2.11.jar
+[debug] 	[NOT REQUIRED] org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3!scalajs-d3_sjs0.6_2.11.jar
 [debug] 	[NOT REQUIRED] org.webjars.bower#d3;3.5.17!d3.jar
-[debug] 		tried https://jcenter.bintray.com/org/webjars/d3js/3.5.16/d3js-3.5.16.jar
-[info] downloading https://jcenter.bintray.com/org/webjars/d3js/3.5.16/d3js-3.5.16.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/webjars/d3js/3.5.16/d3js-3.5.16.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/webjars/d3js/3.5.16/d3js-3.5.16.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/webjars/d3js/3.5.16/d3js-3.5.16.jar
-[info] 	[SUCCESSFUL ] org.webjars#d3js;3.5.16!d3js.jar (556ms)
+[debug] 	[NOT REQUIRED] org.webjars#d3js;3.5.16!d3js.jar
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.11.8;0.6.9!scalajs-compiler_2.11.8.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
@@ -821,20 +764,20 @@
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar
-[debug] :: resolution report :: resolve 6854ms :: artifacts dl 3831ms
-[debug] 	report for default#scalatags_sjs0.6_2.11;1.0 compile produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-compile.xml
-[debug] 	report for default#scalatags_sjs0.6_2.11;1.0 runtime produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-runtime.xml
-[debug] 	report for default#scalatags_sjs0.6_2.11;1.0 test produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-test.xml
-[debug] 	report for default#scalatags_sjs0.6_2.11;1.0 provided produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-provided.xml
-[debug] 	report for default#scalatags_sjs0.6_2.11;1.0 optional produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-optional.xml
-[debug] 	report for default#scalatags_sjs0.6_2.11;1.0 compile-internal produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-compile-internal.xml
-[debug] 	report for default#scalatags_sjs0.6_2.11;1.0 runtime-internal produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-runtime-internal.xml
-[debug] 	report for default#scalatags_sjs0.6_2.11;1.0 test-internal produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-test-internal.xml
-[debug] 	report for default#scalatags_sjs0.6_2.11;1.0 plugin produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-plugin.xml
-[debug] 	report for default#scalatags_sjs0.6_2.11;1.0 sources produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-sources.xml
-[debug] 	report for default#scalatags_sjs0.6_2.11;1.0 docs produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-docs.xml
-[debug] 	report for default#scalatags_sjs0.6_2.11;1.0 pom produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-pom.xml
-[debug] 	report for default#scalatags_sjs0.6_2.11;1.0 scala-tool produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-scala-tool.xml
-[debug] 	report for default#scalatags_sjs0.6_2.11;1.0 phantom-js-jetty produced in /Users/bfashola/IdeaProjects/Scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-phantom-js-jetty.xml
-[debug] 	resolve done (6854ms resolve - 3831ms download)
+[debug] :: resolution report :: resolve 4451ms :: artifacts dl 13ms
+[debug] 	report for scalatags#scalatags_sjs0.6_2.11;1.0 compile produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags_sjs0.6_2.11-compile.xml
+[debug] 	report for scalatags#scalatags_sjs0.6_2.11;1.0 runtime produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags_sjs0.6_2.11-runtime.xml
+[debug] 	report for scalatags#scalatags_sjs0.6_2.11;1.0 test produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags_sjs0.6_2.11-test.xml
+[debug] 	report for scalatags#scalatags_sjs0.6_2.11;1.0 provided produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags_sjs0.6_2.11-provided.xml
+[debug] 	report for scalatags#scalatags_sjs0.6_2.11;1.0 optional produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags_sjs0.6_2.11-optional.xml
+[debug] 	report for scalatags#scalatags_sjs0.6_2.11;1.0 compile-internal produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags_sjs0.6_2.11-compile-internal.xml
+[debug] 	report for scalatags#scalatags_sjs0.6_2.11;1.0 runtime-internal produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags_sjs0.6_2.11-runtime-internal.xml
+[debug] 	report for scalatags#scalatags_sjs0.6_2.11;1.0 test-internal produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags_sjs0.6_2.11-test-internal.xml
+[debug] 	report for scalatags#scalatags_sjs0.6_2.11;1.0 plugin produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags_sjs0.6_2.11-plugin.xml
+[debug] 	report for scalatags#scalatags_sjs0.6_2.11;1.0 sources produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags_sjs0.6_2.11-sources.xml
+[debug] 	report for scalatags#scalatags_sjs0.6_2.11;1.0 docs produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags_sjs0.6_2.11-docs.xml
+[debug] 	report for scalatags#scalatags_sjs0.6_2.11;1.0 pom produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags_sjs0.6_2.11-pom.xml
+[debug] 	report for scalatags#scalatags_sjs0.6_2.11;1.0 scala-tool produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags_sjs0.6_2.11-scala-tool.xml
+[debug] 	report for scalatags#scalatags_sjs0.6_2.11;1.0 phantom-js-jetty produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags_sjs0.6_2.11-phantom-js-jetty.xml
+[debug] 	resolve done (4451ms resolve - 13ms download)
 [info] Done updating.
