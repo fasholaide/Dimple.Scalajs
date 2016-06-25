@@ -10,13 +10,13 @@ import scala.scalajs.js.annotation.JSName
 @JSName("dimple.aggregateMethod")
 @js.native
 object AggregateMethod extends js.Object {
-  def avg(lhs: Any, lhsCount: Any, rhs: Any, rhsCount: Any): Int = js.native
+  def avg(): Int = js.native
 
-  def count(lhs: Any, lhsCount: Any, rhs: Any, rhsCount: Any): Int = js.native
+  def count(): Int = js.native
 
-  def max(lhs: Any, lhsCount: Any, rhs: Any, rhsCount: Any): Int = js.native
+  def max(): Int = js.native
 
-  def min(lhs: Any, lhsCount: Any, rhs: Any, rhsCount: Any): Int = js.native
+  def min(): Int = js.native
 
-  def sum(lhs: Any, lhsCount: Any, rhs: Any, rhsCount: Any): Int = js.native
+  def sum(): Int = js.native
 }

@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for scalatags#scalatags$sources_sjs0.6_2.11;1.0 [compile]
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@278f5fd1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32748406
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -15,7 +15,7 @@
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->default(compile)]
 [info] Resolving org.webjars.bower#dimple;2.1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fe6051a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@241a64be
 [debug] sbt-chain: module revision found in cache: org.webjars.bower#dimple;2.1.6
 [debug] 	found org.webjars.bower#dimple;2.1.6 in sbt-chain
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->runtime]
@@ -23,7 +23,7 @@
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.webjars.bower#dimple;2.1.6 [compile->master]
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.webjars.bower#d3;3.5.17 [compile->default(compile)]
 [info] Resolving org.webjars.bower#d3;3.5.17 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76ed185a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d3c8cd3
 [debug] sbt-chain: module revision found in cache: org.webjars.bower#d3;3.5.17
 [debug] 	found org.webjars.bower#d3;3.5.17 in sbt-chain
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.webjars.bower#d3;3.5.17 [compile->runtime]
@@ -31,7 +31,7 @@
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.webjars.bower#d3;3.5.17 [compile->master]
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
 [info] Resolving org.scala-js#scalajs-library_2.11;0.6.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b0c796
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38d73e2e
 [debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-library_2.11;0.6.9
 [debug] 	found org.scala-js#scalajs-library_2.11;0.6.9 in sbt-chain
 [debug] 	[0.6.9] org.scala-js#scalajs-library_2.11;0.6.9
@@ -40,7 +40,7 @@
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->default(compile)]
 [info] Resolving com.scalatags#scalatags_2.10;0.1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ebfa77c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@396a94f9
 [debug] sbt-chain: module revision found in cache: com.scalatags#scalatags_2.10;0.1.4
 [debug] 	found com.scalatags#scalatags_2.10;0.1.4 in sbt-chain
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->runtime]
@@ -48,7 +48,7 @@
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->com.scalatags#scalatags_2.10;0.1.4 [compile->master]
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
 [info] Resolving org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@190e1358
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b06b6b3
 [debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0
 [debug] 	found org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 in sbt-chain
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
@@ -56,7 +56,7 @@
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->default(compile)]
 [info] Resolving org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8324f6f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@180074ef
 [debug] sbt-chain: module revision found in cache: org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3
 [debug] 	found org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 in sbt-chain
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->runtime]
@@ -64,7 +64,7 @@
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->master]
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.webjars#d3js;3.5.16 [compile->default(compile)]
 [info] Resolving org.webjars#d3js;3.5.16 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f9ff404
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22545319
 [debug] sbt-chain: module revision found in cache: org.webjars#d3js;3.5.16
 [debug] 	found org.webjars#d3js;3.5.16 in sbt-chain
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.webjars#d3js;3.5.16 [compile->runtime]
@@ -563,7 +563,7 @@
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-js#scalajs-compiler_2.11.8;0.6.9 [plugin->master]
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [plugin->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@540823e9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1dae2bbd
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.8
 [debug] 	found org.scala-lang#scala-compiler;2.11.8 in sbt-chain
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [plugin->runtime]
@@ -571,7 +571,7 @@
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [plugin->master]
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [plugin->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b502707
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@376bdb8a
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
 [debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
@@ -580,7 +580,7 @@
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [plugin->master]
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [plugin->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e999a78
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66870956
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [plugin->runtime]
@@ -588,7 +588,7 @@
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [plugin->master]
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [plugin->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3dd0f615
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20de0e5
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies scalatags#scalatags$sources_sjs0.6_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [plugin->runtime]
@@ -694,8 +694,8 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.webjars.bower#dimple;2.1.6!dimple.jar
 [debug] 	[NOT REQUIRED] org.webjars.bower#dimple;2.1.6!dimple.jar(src)
-[debug] 	[NOT REQUIRED] org.webjars.bower#d3;3.5.17!d3.jar
 [debug] 	[NOT REQUIRED] org.webjars.bower#d3;3.5.17!d3.jar(src)
+[debug] 	[NOT REQUIRED] org.webjars.bower#d3;3.5.17!d3.jar
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-library_2.11;0.6.9!scalajs-library_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-library_2.11;0.6.9!scalajs-library_2.11.jar
 [debug] 	[NOT REQUIRED] com.scalatags#scalatags_2.10;0.1.4!scalatags_2.10.jar
@@ -723,7 +723,7 @@
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar(src)
-[debug] :: resolution report :: resolve 146ms :: artifacts dl 21ms
+[debug] :: resolution report :: resolve 328ms :: artifacts dl 32ms
 [debug] 	report for scalatags#scalatags$sources_sjs0.6_2.11;1.0 compile produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags$sources_sjs0.6_2.11-compile.xml
 [debug] 	report for scalatags#scalatags$sources_sjs0.6_2.11;1.0 runtime produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags$sources_sjs0.6_2.11-runtime.xml
 [debug] 	report for scalatags#scalatags$sources_sjs0.6_2.11;1.0 test produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags$sources_sjs0.6_2.11-test.xml
@@ -738,4 +738,4 @@
 [debug] 	report for scalatags#scalatags$sources_sjs0.6_2.11;1.0 pom produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags$sources_sjs0.6_2.11-pom.xml
 [debug] 	report for scalatags#scalatags$sources_sjs0.6_2.11;1.0 scala-tool produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags$sources_sjs0.6_2.11-scala-tool.xml
 [debug] 	report for scalatags#scalatags$sources_sjs0.6_2.11;1.0 phantom-js-jetty produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/scalatags-scalatags$sources_sjs0.6_2.11-phantom-js-jetty.xml
-[debug] 	resolve done (146ms resolve - 21ms download)
+[debug] 	resolve done (328ms resolve - 32ms download)
