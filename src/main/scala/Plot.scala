@@ -1,6 +1,5 @@
 package org.scala.dimplejs
 
-import org.singlespaced.d3js.SvgObject
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSName
 
@@ -14,23 +13,19 @@ trait Plot extends js.Object {
 @JSName("dimple.plot.area")
 @js.native
 object PlotArea extends Plot {
-
 }
 
 @JSName("dimple.plot.bar")
 @js.native
-object PlotBar extends js.Object {
-
+object PlotBar extends Plot {
 }
 
 @JSName("dimple.plot.bubble")
 @js.native
-object PlotBubble extends js.Object {
-
+object PlotBubble extends Plot {
 }
 
 @JSName("dimple.plot.line")
 @js.native
-object PlotLine extends js.Object {
-
+object PlotLine extends Plot {
 }

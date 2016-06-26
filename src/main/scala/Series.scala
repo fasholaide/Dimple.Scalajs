@@ -7,31 +7,38 @@ import scala.scalajs.js.annotation.JSName
 @JSName("dimple.series")
 @js.native
 class Series(
-              chart: Chart,
-              categoryFields: String | js.Array[String],
-              xAxis: Axis,
-              yAxis: Axis,
-              zAxis: Axis = null,
-              colorAxis: Axis = null,
-              pieAxis: Axis = null,
-              plotFunction: Plot,
-              aggregateMethod: js.Function0[Int],
-              stacked: Boolean
-            ) extends js.Object {
-  val aggregate = js.native
-  val barGap = js.native
-  val c = js.native
-  val data = js.native
-  val lineMarkers = js.native
-  val lineWeight = js.native
-  val shapes = js.native
-  val x = js.native
-  val y = js.native
-  val z = js.native
+  chart: Chart,
+  categoryFields: String | js.Array[String],
+  xAxis: Axis,
+  yAxis: Axis,
+  zAxis: Axis = null,
+  colorAxis: Axis = null,
+  pieAxis: Axis = null,
+  plotFunction: Plot,
+  aggregateMethod: js.Function0[Int],
+  stacked: Boolean
+) extends js.Object {
+  val aggregate: js.Function0[Int] = js.native
+  val barGap: Float = js.native
+  val c: Axis = js.native
+  val data: js.Array[Any] = js.native
+  val lineMarkers: Boolean = js.native
+  val lineWeight: Int = js.native
+  val shapes: Any = js.native
+  val x: Axis = js.native
+  val y: Axis = js.native
+  val z: Axis = js.native
 
-  def addEventHandler(event: String, handler: EventArgs): Unit = js.native
+  def addEventHandler(
+    event: String,
+    handler: js.Function1[EventArgs, Unit]
+  ): Unit = js.native
 
-  def addOrderRule(ordering: String | js.Array[String] | js.Function2[Any, Any, Int], desc: Boolean = false): Unit = js.native
+  def addOrderRule(
+    ordering: String | js.Array[String] | js.Function2[Any, Any, Int],
+    desc: Boolean = false): Unit = js.native
 
-  def getTooltipTest(e: EventArgs): js.Array[String] = js.native
+  def getTooltipTest(
+    e: js.Function1[EventArgs, js.Array[String]]
+  ): js.Array[String] = js.native
 }
