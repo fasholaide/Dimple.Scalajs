@@ -1,4 +1,3 @@
-logs
 project/target
 target
 tmp
@@ -13,3 +12,4 @@ dist
 /RUNNING_PID
 /.settings
 *.log
+.idea
