@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty"
-		date="20160703183937"/>
+		date="20160704004055"/>
 	<dependencies>
 		<module organisation="org.singlespaced" name="scalajs-d3_sjs0.6_2.11">
 			<revision name="0.3.3" status="release" pubdate="20160402134534" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spaced/scala-js-d3" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
@@ -57,7 +57,7 @@
 		<module organisation="com.scalatags" name="scalatags_2.10">
 			<revision name="0.1.4" status="release" pubdate="20130801105715" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/scalatags" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
 				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="no" details="" size="2787" time="0" location="/Users/bfashola/.ivy2/cache/com.scalatags/scalatags_2.10/ivy-0.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/scalatags/scalatags_2.10/0.1.4/scalatags_2.10-0.1.4.pom"/>
+				<metadata-artifact status="no" details="" size="2661" time="0" location="/Users/bfashola/.ivy2/cache/com.scalatags/scalatags_2.10/ivy-0.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/scalatags/scalatags_2.10/0.1.4/scalatags_2.10-0.1.4.pom"/>
 				<caller organisation="scalatags" name="scalatags$sources_sjs0.6_2.11" conf="compile-internal, compile, provided, optional" rev="0.1.4" rev-constraint-default="0.1.4" rev-constraint-dynamic="0.1.4" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="scalatags_2.10" type="jar" ext="jar" status="no" details="" size="57017" time="0" location="/Users/bfashola/.ivy2/cache/com.scalatags/scalatags_2.10/jars/scalatags_2.10-0.1.4.jar">
@@ -87,7 +87,7 @@
 		<module organisation="org.webjars.bower" name="dimple">
 			<revision name="2.1.6" status="release" pubdate="20160304140007" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
 				<license name="MIT" url="https://spdx.org/licenses/MIT#licenseText"/>
-				<metadata-artifact status="no" details="" size="2713" time="0" location="/Users/bfashola/.ivy2/cache/org.webjars.bower/dimple/ivy-2.1.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/webjars/bower/dimple/2.1.6/dimple-2.1.6.pom"/>
+				<metadata-artifact status="no" details="" size="2587" time="0" location="/Users/bfashola/.ivy2/cache/org.webjars.bower/dimple/ivy-2.1.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/webjars/bower/dimple/2.1.6/dimple-2.1.6.pom"/>
 				<caller organisation="scalatags" name="scalatags$sources_sjs0.6_2.11" conf="compile-internal, compile, provided, optional" rev="2.1.6" rev-constraint-default="2.1.6" rev-constraint-dynamic="2.1.6" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="dimple" type="jar" ext="jar" status="no" details="" size="1083830" time="0" location="/Users/bfashola/.ivy2/cache/org.webjars.bower/dimple/jars/dimple-2.1.6.jar">
@@ -100,16 +100,16 @@
 			</revision>
 		</module>
 		<module organisation="org.webjars.bower" name="d3">
-			<revision name="3.5.17" status="release" pubdate="20160509005126" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+			<revision name="3.5.17" status="release" pubdate="20160509005151" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
 				<license name="BSD-3-Clause" url="https://spdx.org/licenses/BSD-3-Clause#licenseText"/>
-				<metadata-artifact status="no" details="" size="2546" time="0" location="/Users/bfashola/.ivy2/cache/org.webjars.bower/d3/ivy-3.5.17.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/webjars/bower/d3/3.5.17/d3-3.5.17.pom"/>
+				<metadata-artifact status="no" details="" size="2420" time="0" location="/Users/bfashola/.ivy2/cache/org.webjars.bower/d3/ivy-3.5.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/bower/d3/3.5.17/d3-3.5.17.pom"/>
 				<caller organisation="scalatags" name="scalatags$sources_sjs0.6_2.11" conf="compile-internal, compile, provided, optional" rev="3.5.17" rev-constraint-default="3.5.17" rev-constraint-dynamic="3.5.17" callerrev="1.0"/>
 				<artifacts>
+					<artifact name="d3" type="jar" ext="jar" status="no" details="" size="131911" time="0" location="/Users/bfashola/.ivy2/cache/org.webjars.bower/d3/jars/d3-3.5.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/webjars/bower/d3/3.5.17/d3-3.5.17.jar"/>
+					</artifact>
 					<artifact name="d3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22" time="0" location="/Users/bfashola/.ivy2/cache/org.webjars.bower/d3/srcs/d3-3.5.17-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/webjars/bower/d3/3.5.17/d3-3.5.17-sources.jar"/>
-					</artifact>
-					<artifact name="d3" type="jar" ext="jar" status="no" details="" size="131911" time="0" location="/Users/bfashola/.ivy2/cache/org.webjars.bower/d3/jars/d3-3.5.17.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/webjars/bower/d3/3.5.17/d3-3.5.17.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

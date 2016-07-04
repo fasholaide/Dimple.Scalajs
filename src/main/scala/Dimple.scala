@@ -1,6 +1,6 @@
 package org.scala.dimplejs
 
-import org.singlespaced.d3js.SvgObject
+import org.singlespaced.d3js.Selection
 
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSName
@@ -14,5 +14,5 @@ object Dimple extends js.Object {
 
   def getUniqueValues(data: js.Array[js.Dictionary[String]], fields: String | js.Array[String]): js.Array[Any] = js.native
 
-  def newSvg(parentSelector: String, width: String | Int, height: String | Int): SvgObject = js.native
+  def newSvg(parentSelector: String, width: String | Int, height: String | Int): Selection[org.scalajs.dom.EventTarget] = js.native
 }

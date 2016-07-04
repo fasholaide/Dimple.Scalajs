@@ -1,135 +1,68 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Color.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/example/Main.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/EventArgs.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Plot.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/AggregateMethod.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala)[0m
-[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala)[0m
 [0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Color.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/example/Main.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/EventArgs.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Plot.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/AggregateMethod.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Color.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/example/Main.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/EventArgs.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Plot.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/AggregateMethod.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 11 sources: invalidated sources (11) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 11 Scala sources to /Users/bfashola/workspace/Dimple.Scalajs/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /Users/bfashola/workspace/Dimple.Scalajs/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 131a1537, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 1a6f6d68, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-Xplugin:/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-compiler_2.11.8/jars/scalajs-compiler_2.11.8-0.6.9.jar[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
-[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/classes:/Users/bfashola/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/classes:/Users/bfashola/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/Users/bfashola/workspace/Dimple.Scalajs/target/scala-2.11/classes:/Users/bfashola/.ivy2/cache/org.webjars.bower/dimple/jars/dimple-2.1.6.jar:/Users/bfashola/.ivy2/cache/org.webjars.bower/d3/jars/d3-3.5.17.jar:/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-library_2.11/jars/scalajs-library_2.11-0.6.9.jar:/Users/bfashola/.ivy2/cache/com.scalatags/scalatags_2.10/jars/scalatags_2.10-0.1.4.jar:/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/jars/scalajs-dom_sjs0.6_2.11-0.9.0.jar:/Users/bfashola/.ivy2/cache/org.singlespaced/scalajs-d3_sjs0.6_2.11/jars/scalajs-d3_sjs0.6_2.11-0.3.3.jar:/Users/bfashola/.ivy2/cache/org.webjars/d3js/jars/d3js-3.5.16.jar[0m
-[0m[[33mwarn[0m] [0m/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/EventArgs.scala:7: Classes, traits and objects inheriting from js.Any should be annotated with @js.native, unless they have @ScalaJSDefined. The default will switch to Scala.js-defined in the next major version of Scala.js.[0m
-[0m[[33mwarn[0m] [0mclass EventArgs() extends js.Object {[0m
-[0m[[33mwarn[0m] [0m      ^[0m
-[0m[[33mwarn[0m] [0m/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala:20: The type of addOrderRule got inferred as Nothing. To suppress this warning, explicitly ascribe the type.[0m
-[0m[[33mwarn[0m] [0m  def addOrderRule([0m
-[0m[[33mwarn[0m] [0m      ^[0m
-[0m[[33mwarn[0m] [0mtwo warnings found[0m
-[0m[[0mdebug[0m] [0mScala compilation took 6.39605783 s[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, dateParseFormat, addGroupOrderRule$default$2, hasOwnProperty, floatingBarWidth, wait, propertyIsEnumerable, $asInstanceOf, valueOf, logBase, shapes, equals, tickFormat, overrideMax, Axis, asInstanceOf, synchronized, hidden, addOrderRule$default$2, toLocaleString, $isInstanceOf, timeInterval, showGridlines, clamp, useLog, notifyAll, isInstanceOf, colors, fontFamily, <init>, showPercent, ==, clone, ticks, timePeriod, addOrderRule, fontSize, isPrototypeOf, toString, !=, getClass, title, titleShape, ne, gridlineShapes, addGroupOrderRule, eq, ##, finalize, hashCode, overrideMin.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala: Set(Axis, <init>)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/example/Main.scala: Set(<init>, addOrderRule)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala: Set(shapes, Axis, <init>)[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, hasOwnProperty, wait, propertyIsEnumerable, $asInstanceOf, valueOf, onTick, equals, asInstanceOf, synchronized, StoryBoard, addOrderRule$default$2, toLocaleString, $isInstanceOf, autoplay, frameDuration, categoryFields, notifyAll, isInstanceOf, fontFamily, <init>, getFramevalue, ==, clone, chart, addOrderRule, fontSize, isPrototypeOf, pauseAnimation, toString, !=, getClass, goToFrame, storylabel, ne, startAnimation, eq, stopAnimation, ##, finalize, hashCode.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala: Set(StoryBoard, <init>)[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	storyboard, notify, addAxis$default$4, Stringy, x, series, hasOwnProperty, svg, getColor, wait, propertyIsEnumerable, $asInstanceOf, valueOf, addTimeAxis$default$4, addSeries$default$1, draw$default$1, equals, y, assignClass, addPctAxis, asInstanceOf, setStoryboard, assignColor$default$3, data, ease, noFormats, setBounds, synchronized, toLocaleString, addAxis$default$3, $isInstanceOf, height, addCategoryAxis, addLegend$default$5, assignColor, draw$default$2, addTimeAxis, addAxis, notifyAll, axes, addLogAxis$default$3, isInstanceOf, Chart, addSeries$default$3, draw, <init>, legends, addAxis$default$2, ==, customClassList, clone, addColorAxis, addMeasureAxis, addLogAxis, addSeries, isPrototypeOf, toString, !=, getClass, Seriez, defaultColors, setMargins, ne, width, Primitives, addTimeAxis$default$3, eq, addColorAxis$default$2, staggerDraw, ##, finalize, hashCode, addLegend, addPctAxis$default$3.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala: Set(Chart, <init>)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala: Set(x, y, data, Chart, <init>)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/example/Main.scala: Set(svg, data, setBounds, addCategoryAxis, Chart, draw, <init>, addMeasureAxis, addSeries)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala: Set(Chart, <init>)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala: Set(Chart, <init>)[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, x, getTooltipTest, hasOwnProperty, wait, propertyIsEnumerable, $asInstanceOf, valueOf, shapes, lineMarkers, Series, equals, y, asInstanceOf, data, synchronized, addOrderRule$default$2, toLocaleString, aggregate, $isInstanceOf, lineWeight, notifyAll, isInstanceOf, barGap, <init>, ==, clone, addOrderRule, isPrototypeOf, toString, !=, c, getClass, addEventHandler, ne, eq, ##, finalize, z, hashCode.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala: Set(x, Series, y, data, <init>)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala: Set(shapes, Series, <init>)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/example/Main.scala: Set(data, <init>, addOrderRule)[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Plot.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Plot.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Plot.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Plot.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Plot.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	stacked, notify, hasOwnProperty, wait, propertyIsEnumerable, $asInstanceOf, valueOf, equals, asInstanceOf, PlotBar, synchronized, PlotLine, toLocaleString, $isInstanceOf, PlotArea, notifyAll, isInstanceOf, supports, ==, clone, PlotBubble, Plot, $init$, isPrototypeOf, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala: Set(Plot)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/example/Main.scala: Set(PlotLine)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala: Set(Plot)[0m
+[0m[[0mdebug[0m] [0mScala compilation took 3.671637425 s[0m
 [0m[[0mdebug[0m] [0mInvalidating /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala...[0m
 [0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala...[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala)[0m
 [0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala)[0m
 [0m[[0mdebug[0m] [0mThe /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, hasOwnProperty, wait, propertyIsEnumerable, $asInstanceOf, valueOf, equals, asInstanceOf, synchronized, toLocaleString, $isInstanceOf, filterData, getUniqueValues, notifyAll, isInstanceOf, newSvg, ==, clone, isPrototypeOf, toString, !=, Dimple, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m	newSvg.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/example/Main.scala: Set(filterData, newSvg, Dimple)[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Color.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Color.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Color.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Color.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Color.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, hasOwnProperty, wait, propertyIsEnumerable, $asInstanceOf, valueOf, equals, asInstanceOf, synchronized, toLocaleString, $isInstanceOf, notifyAll, isInstanceOf, <init>, ==, clone, isPrototypeOf, toString, !=, getClass, Color, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	svg, <init>.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala: Set(<init>, Color)[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/EventArgs.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/EventArgs.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/EventArgs.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/EventArgs.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/EventArgs.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, hasOwnProperty, wait, propertyIsEnumerable, $asInstanceOf, valueOf, equals, asInstanceOf, synchronized, xValue, toLocaleString, $isInstanceOf, notifyAll, EventArgs, isInstanceOf, <init>, seriesShape, seriesValue, ==, colorValue, clone, isPrototypeOf, toString, !=, yValue, frameValue, getClass, selectedShape, ne, eq, zValue, ##, finalize, hashCode.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala: Set(EventArgs, <init>)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala: Set(EventArgs, <init>)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala: Set(EventArgs, <init>)[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, hasOwnProperty, wait, propertyIsEnumerable, $asInstanceOf, valueOf, shapes, equals, asInstanceOf, synchronized, toLocaleString, $isInstanceOf, verticalPadding, notifyAll, isInstanceOf, Legend, fontFamily, <init>, ==, clone, fontSize, horizontalPadding, isPrototypeOf, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala: Set(Legend, <init>)[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/AggregateMethod.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/AggregateMethod.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/AggregateMethod.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/AggregateMethod.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/AggregateMethod.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, count, hasOwnProperty, wait, propertyIsEnumerable, $asInstanceOf, valueOf, equals, asInstanceOf, synchronized, avg, toLocaleString, $isInstanceOf, min, notifyAll, isInstanceOf, max, AggregateMethod, ==, clone, isPrototypeOf, toString, !=, getClass, ne, eq, sum, ##, finalize, hashCode.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/example/Main.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/example/Main.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/example/Main.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/example/Main.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/example/Main.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, <init>, ==, clone, Main, toString, !=, getClass, ne, eq, $js$exported$meth$main, ##, finalize, hashCode.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala)[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala by /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala by /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala by /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala by /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala)[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 5 Scala sources to /Users/bfashola/workspace/Dimple.Scalajs/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 79cb9b58, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-compiler_2.11.8/jars/scalajs-compiler_2.11.8-0.6.9.jar[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/classes:/Users/bfashola/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/bfashola/workspace/Dimple.Scalajs/target/scala-2.11/classes:/Users/bfashola/.ivy2/cache/org.webjars.bower/dimple/jars/dimple-2.1.6.jar:/Users/bfashola/.ivy2/cache/org.webjars.bower/d3/jars/d3-3.5.17.jar:/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-library_2.11/jars/scalajs-library_2.11-0.6.9.jar:/Users/bfashola/.ivy2/cache/com.scalatags/scalatags_2.10/jars/scalatags_2.10-0.1.4.jar:/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/jars/scalajs-dom_sjs0.6_2.11-0.9.0.jar:/Users/bfashola/.ivy2/cache/org.singlespaced/scalajs-d3_sjs0.6_2.11/jars/scalajs-d3_sjs0.6_2.11-0.3.3.jar:/Users/bfashola/.ivy2/cache/org.webjars/d3js/jars/d3js-3.5.16.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 1.290370955 s[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

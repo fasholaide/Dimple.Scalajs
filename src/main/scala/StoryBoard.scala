@@ -19,7 +19,7 @@ class StoryBoard(
 
   def addOrderRule(
     odering: String | js.Array[String] | js.Function2[Any, Any, String],
-    desc: Boolean = false) = js.native
+    desc: Boolean = false): Unit = js.native
 
   def getFramevalue(): String = js.native
 

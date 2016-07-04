@@ -1,7 +1,8 @@
 package org.scala.dimplejs
 
-import org.singlespaced.d3js.SvgObject
+import org.singlespaced.d3js.Selection
 import org.singlespaced.d3js.timeModule.FormatObject
+
 import scala.scalajs.js
 import scala.scalajs.js.`|`
 import scala.scalajs.js.annotation.JSName
@@ -9,7 +10,7 @@ import scala.scalajs.js.annotation.JSName
 
 @JSName("dimple.chart")
 @js.native
-class Chart(val svg: SvgObject, val data: js.Array[Any]) extends js.Object {
+class Chart(val svg: Selection[org.scalajs.dom.EventTarget], val data: js.Array[js.Object with js.Dynamic]) extends js.Object {
 
   type Stringy = String | js.Array[String]
   type Primitives = String | Int
