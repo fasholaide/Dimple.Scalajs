@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty"
-		date="20160625143904"/>
+		date="20160703190129"/>
 	<dependencies>
 		<module organisation="org.singlespaced" name="scalajs-d3_sjs0.6_2.11">
 			<revision name="0.3.3" status="release" pubdate="20160402134534" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spaced/scala-js-d3" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">

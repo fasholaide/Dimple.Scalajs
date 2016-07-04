@@ -5,7 +5,7 @@ import scala.scalajs.js.annotation.JSName
 
 @JSName("dimple.color")
 @js.native
-case class Color(
+class Color(
   fill: String,
   stroke: String = "",
   opacity: Float
