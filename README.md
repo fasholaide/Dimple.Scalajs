@@ -1,10 +1,8 @@
 # Dimple.Scalajs
-Scala.js Facade for Dimple.js Library [https://www.scala-js.org/]
+[Scala.js](https://www.scala-js.org/) Facade for [Dimple.js](http://dimplejs.org/) Library
 
-This is the Scala.js facade for the Dimple.js library that is based on the d3.js library. This facade is for the v2.0.0 of dimple.js. This library is still in its early stages. Please, do use this and enjoy it. If you need more documentation on how this is used, you should visit the Dimple wiki: https://github.com/PMSI-AlignAlytics/dimple/wiki.
+Scala.js facade for the Dimple.js library that is based on [d3.js](https://d3js.org/). This facade was written for the version v2.0.0 of dimple.js. This is still in its early stages. Please, do use this and report any issues you may find or encounter. If you need more documentation on how this is used, you should visit the Dimple.js [wiki](https://github.com/PMSI-AlignAlytics/dimple/wiki).
 
-An example application was written to show how this library could be used here: https://github.com/fasholaide/Dimple.Scalajs.Example. This application show cases how a bar chart and a line chart can be constructed.
-
-Again, enjoy!
+An example application was written to show how this library could be used [here](https://github.com/fasholaide/Dimple.Scalajs.Example). The application show cases how a Bar Chart and a Line Chart can be constructed.
 
 Ahoy!
