@@ -2,67 +2,35 @@
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala)[0m
 [0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /Users/bfashola/workspace/Dimple.Scalajs/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/bfashola/workspace/Dimple.Scalajs/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 1a6f6d68, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 31b6a931, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-Xplugin:/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-compiler_2.11.8/jars/scalajs-compiler_2.11.8-0.6.9.jar[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/classes:/Users/bfashola/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/Users/bfashola/workspace/Dimple.Scalajs/target/scala-2.11/classes:/Users/bfashola/.ivy2/cache/org.webjars.bower/dimple/jars/dimple-2.1.6.jar:/Users/bfashola/.ivy2/cache/org.webjars.bower/d3/jars/d3-3.5.17.jar:/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-library_2.11/jars/scalajs-library_2.11-0.6.9.jar:/Users/bfashola/.ivy2/cache/com.scalatags/scalatags_2.10/jars/scalatags_2.10-0.1.4.jar:/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/jars/scalajs-dom_sjs0.6_2.11-0.9.0.jar:/Users/bfashola/.ivy2/cache/org.singlespaced/scalajs-d3_sjs0.6_2.11/jars/scalajs-d3_sjs0.6_2.11-0.3.3.jar:/Users/bfashola/.ivy2/cache/org.webjars/d3js/jars/d3js-3.5.16.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 3.671637425 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 3.096032164 s[0m
 [0m[[0mdebug[0m] [0mInvalidating /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala...[0m
 [0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala...[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala)[0m
 [0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala)[0m
 [0m[[0mdebug[0m] [0mThe /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Dimple.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	newSvg.[0m
+[0m[[0mdebug[0m] [0m	getUniqueValues, filterData.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	svg, <init>.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala: Set(<init>)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala: Set(<init>)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala: Set(<init>)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala: Set(<init>)[0m
-[0m[[0mdebug[0m] [0mNew invalidations:[0m
-[0m[[0mdebug[0m] [0m	Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala)[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala)[0m
-[0m[[0mdebug[0m] [0mIncluding /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala by /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala[0m
-[0m[[0mdebug[0m] [0mIncluding /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala by /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala[0m
-[0m[[0mdebug[0m] [0mIncluding /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala by /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala[0m
-[0m[[0mdebug[0m] [0mIncluding /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala by /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala[0m
-[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
-[0m[[0mdebug[0m] [0m	Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Chart.scala)[0m
-[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set(/Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Legend.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Series.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/StoryBoard.scala, /Users/bfashola/workspace/Dimple.Scalajs/src/main/scala/Axis.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 5 Scala sources to /Users/bfashola/workspace/Dimple.Scalajs/target/scala-2.11/classes...[0m
-[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
-[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 79cb9b58, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
-[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
-[0m[[0mdebug[0m] [0m	-Xplugin:/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-compiler_2.11.8/jars/scalajs-compiler_2.11.8-0.6.9.jar[0m
-[0m[[0mdebug[0m] [0m	-bootclasspath[0m
-[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/classes:/Users/bfashola/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
-[0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/Users/bfashola/workspace/Dimple.Scalajs/target/scala-2.11/classes:/Users/bfashola/.ivy2/cache/org.webjars.bower/dimple/jars/dimple-2.1.6.jar:/Users/bfashola/.ivy2/cache/org.webjars.bower/d3/jars/d3-3.5.17.jar:/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-library_2.11/jars/scalajs-library_2.11-0.6.9.jar:/Users/bfashola/.ivy2/cache/com.scalatags/scalatags_2.10/jars/scalatags_2.10-0.1.4.jar:/Users/bfashola/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/jars/scalajs-dom_sjs0.6_2.11-0.9.0.jar:/Users/bfashola/.ivy2/cache/org.singlespaced/scalajs-d3_sjs0.6_2.11/jars/scalajs-d3_sjs0.6_2.11-0.3.3.jar:/Users/bfashola/.ivy2/cache/org.webjars/d3js/jars/d3js-3.5.16.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 1.290370955 s[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@619153c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d67761f
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -15,7 +15,7 @@
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.webjars.bower#dimple;2.1.6 [compile->default(compile)]
 [info] Resolving org.webjars.bower#dimple;2.1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59ad37f1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cff9d2a
 [debug] sbt-chain: module revision found in cache: org.webjars.bower#dimple;2.1.6
 [debug] 	found org.webjars.bower#dimple;2.1.6 in sbt-chain
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.webjars.bower#dimple;2.1.6 [compile->runtime]
@@ -23,7 +23,7 @@
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.webjars.bower#dimple;2.1.6 [compile->master]
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.webjars.bower#d3;3.5.17 [compile->default(compile)]
 [info] Resolving org.webjars.bower#d3;3.5.17 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@545f469e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@402c715c
 [debug] sbt-chain: module revision found in cache: org.webjars.bower#d3;3.5.17
 [debug] 	found org.webjars.bower#d3;3.5.17 in sbt-chain
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.webjars.bower#d3;3.5.17 [compile->runtime]
@@ -31,7 +31,7 @@
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.webjars.bower#d3;3.5.17 [compile->master]
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
 [info] Resolving org.scala-js#scalajs-library_2.11;0.6.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3edbafef
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b09ff6f
 [debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-library_2.11;0.6.9
 [debug] 	found org.scala-js#scalajs-library_2.11;0.6.9 in sbt-chain
 [debug] 	[0.6.9] org.scala-js#scalajs-library_2.11;0.6.9
@@ -40,7 +40,7 @@
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.scalatags#scalatags_2.10;0.1.4 [compile->default(compile)]
 [info] Resolving com.scalatags#scalatags_2.10;0.1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c85632a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55b8dd9a
 [debug] sbt-chain: module revision found in cache: com.scalatags#scalatags_2.10;0.1.4
 [debug] 	found com.scalatags#scalatags_2.10;0.1.4 in sbt-chain
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.scalatags#scalatags_2.10;0.1.4 [compile->runtime]
@@ -48,7 +48,7 @@
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.scalatags#scalatags_2.10;0.1.4 [compile->master]
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
 [info] Resolving org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46156854
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cff8ab5
 [debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0
 [debug] 	found org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 in sbt-chain
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
@@ -56,7 +56,7 @@
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->default(compile)]
 [info] Resolving org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22bc9ec
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6449a31b
 [debug] sbt-chain: module revision found in cache: org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3
 [debug] 	found org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 in sbt-chain
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->runtime]
@@ -64,7 +64,7 @@
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.singlespaced#scalajs-d3_sjs0.6_2.11;0.3.3 [compile->master]
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.webjars#d3js;3.5.16 [compile->default(compile)]
 [info] Resolving org.webjars#d3js;3.5.16 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61ea8785
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c7dd1e3
 [debug] sbt-chain: module revision found in cache: org.webjars#d3js;3.5.16
 [debug] 	found org.webjars#d3js;3.5.16 in sbt-chain
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.webjars#d3js;3.5.16 [compile->runtime]
@@ -563,7 +563,7 @@
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.8;0.6.9 [plugin->master]
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [plugin->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15b7806a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3525d0ad
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.8
 [debug] 	found org.scala-lang#scala-compiler;2.11.8 in sbt-chain
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [plugin->runtime]
@@ -571,7 +571,7 @@
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [plugin->master]
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [plugin->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a26865c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@708edbac
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
 [debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
@@ -580,7 +580,7 @@
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [plugin->master]
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [plugin->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a764097
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@113b0e5b
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [plugin->runtime]
@@ -588,7 +588,7 @@
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [plugin->master]
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [plugin->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37c7a2f6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@197eaa62
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [plugin->runtime]
@@ -723,7 +723,7 @@
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar(src)
-[debug] :: resolution report :: resolve 777ms :: artifacts dl 37ms
+[debug] :: resolution report :: resolve 818ms :: artifacts dl 30ms
 [debug] 	report for org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT compile produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/org.dimple.scalajs-dimple-scalajs$sources_sjs0.6_2.11-compile.xml
 [debug] 	report for org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT runtime produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/org.dimple.scalajs-dimple-scalajs$sources_sjs0.6_2.11-runtime.xml
 [debug] 	report for org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT test produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/org.dimple.scalajs-dimple-scalajs$sources_sjs0.6_2.11-test.xml
@@ -738,4 +738,4 @@
 [debug] 	report for org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT pom produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/org.dimple.scalajs-dimple-scalajs$sources_sjs0.6_2.11-pom.xml
 [debug] 	report for org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT scala-tool produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/org.dimple.scalajs-dimple-scalajs$sources_sjs0.6_2.11-scala-tool.xml
 [debug] 	report for org.dimple.scalajs#dimple-scalajs$sources_sjs0.6_2.11;0.1-SNAPSHOT phantom-js-jetty produced in /Users/bfashola/workspace/Dimple.Scalajs/target/resolution-cache/reports/org.dimple.scalajs-dimple-scalajs$sources_sjs0.6_2.11-phantom-js-jetty.xml
-[debug] 	resolve done (777ms resolve - 37ms download)
+[debug] 	resolve done (818ms resolve - 30ms download)

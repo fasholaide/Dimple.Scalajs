@@ -10,7 +10,7 @@ import scala.scalajs.js.annotation.JSName
 
 @JSName("dimple.chart")
 @js.native
-class Chart(val svg: Selection[org.scalajs.dom.EventTarget], val data: js.Array[js.Object with js.Dynamic]) extends js.Object {
+class Chart(val svg: Selection[org.scalajs.dom.EventTarget], val data: js.Array[js.Object with js.Dynamic] | js.Array[js.Dictionary[String]]) extends js.Object {
 
   type Stringy = String | js.Array[String]
   type Primitives = String | Int

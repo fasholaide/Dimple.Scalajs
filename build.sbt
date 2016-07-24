@@ -15,7 +15,7 @@ libraryDependencies ++= Seq(
   "org.singlespaced" %%% "scalajs-d3" % "0.3.3"
 )
 
-jsDependencies += "org.webjars.bower" % "dimple" % "2.1.6" / "dimple.v1.js"
+jsDependencies += "org.webjars.bower" % "dimple" % "2.1.6" / "dimple.v2.0.0.js"
 
 //publishTo := Some("Sonatype Snapshots Nexus" at "https://oss.sonatype.org/content/repositories/snapshots")
 //credentials += Credentials(Path.userHome / "" / "")
