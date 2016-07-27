@@ -7,7 +7,7 @@ import scala.scalajs.js
 import scala.scalajs.js.`|`
 import scala.scalajs.js.annotation.JSName
 
-@JSName("dimple.Legend")
+@JSName("dimple.legend")
 @js.native
 class Legend(
   chart: Chart,

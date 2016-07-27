@@ -4,7 +4,7 @@ import scala.scalajs.js
 import scala.scalajs.js.`|`
 import scala.scalajs.js.annotation.JSName
 
-@JSName("dimple.chart")
+@JSName("dimple.storyboard")
 @js.native
 class StoryBoard(
   val chart: Chart,
