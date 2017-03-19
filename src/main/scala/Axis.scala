@@ -44,5 +44,4 @@ class Axis(
   def addOrderRule(
     ordering: String | js.Array[String] | js.Function2[Any, Any, Int],
     desc: Boolean = false): Unit = js.native
-
 }

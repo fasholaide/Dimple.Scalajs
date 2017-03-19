@@ -10,25 +10,28 @@ import scala.scalajs.js.annotation.JSName
 
 @JSName("dimple.chart")
 @js.native
-class Chart(val svg: Selection[org.scalajs.dom.EventTarget], val data: js.Array[js.Object with js.Dynamic] | js.Array[js.Dictionary[String]]) extends js.Object {
+class Chart(
+  var svg: Selection[org.scalajs.dom.EventTarget],
+  var data: js.Array[js.Object with js.Dynamic] | js.Array[js.Dictionary[String]]
+) extends js.Object {
 
   type Stringy = String | js.Array[String]
   type Primitives = String | Int
   type Seriez = Series | js.Array[Series]
 
-  val axes: js.Array[Axis] = js.native
-  val customClassList: js.Any = js.native
-  val defaultColors: js.Array[Color] = js.native
-  val ease: String = js.native
-  val height: Int = js.native
-  val legends: js.Array[Legend] = js.native
-  val noFormats: Boolean = js.native
-  val series: js.Array[Series] = js.native
-  val staggerDraw: Boolean = js.native
-  val storyboard: StoryBoard = js.native
-  val width: Int = js.native
-  val x: Int = js.native
-  val y: Int = js.native
+  var axes: js.Array[Axis] = js.native
+  var customClassList: js.Any = js.native
+  var defaultColors: js.Array[Color] = js.native
+  var ease: String = js.native
+  var height: Int = js.native
+  var legends: js.Array[Legend] = js.native
+  var noFormats: Boolean = js.native
+  var series: js.Array[Series] = js.native
+  var staggerDraw: Boolean = js.native
+  var storyboard: StoryBoard = js.native
+  var width: Int = js.native
+  var x: Int = js.native
+  var y: Int = js.native
 
   def addAxis(
     postion: String,
