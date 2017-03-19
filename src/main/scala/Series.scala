@@ -1,5 +1,6 @@
 package org.scala.dimplejs
 
+import org.scalajs.dom.raw.{SVGElement, SVGCircleElement}
 import scala.scalajs.js
 import scala.scalajs.js.`|`
 import scala.scalajs.js.annotation.JSName
@@ -18,16 +19,19 @@ class Series(
   aggregateMethod: js.Function0[Int],
   stacked: Boolean
 ) extends js.Object {
-  val aggregate: js.Function0[Int] = js.native
-  val barGap: Float = js.native
-  val c: Axis = js.native
-  val data: js.Array[Any] = js.native
-  val lineMarkers: Boolean = js.native
-  val lineWeight: Int = js.native
-  val shapes: Any = js.native
-  val x: Axis = js.native
-  val y: Axis = js.native
-  val z: Axis = js.native
+  var aggregate: js.Function2[js.Object, js.Object, js.Object] = js.native
+  var barGap: Float = js.native
+  var c: Axis = js.native
+  var data: js.Array[Any] = js.native
+  var lineMarkers: Boolean = js.native
+  var lineWeight: Int = js.native
+  var shapes: js.Array[SVGElement] = js.native
+  var x: Axis = js.native
+  var y: Axis = js.native
+  var z: Axis = js.native
+  var radius: Int = js.native
+  var innerRadius: String = js.native
+  var outerRadius: String = js.native
 
   def addEventHandler(
     event: String,
