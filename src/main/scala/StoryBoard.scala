@@ -1,5 +1,6 @@
 package org.scala.dimplejs
 
+import org.scalajs.dom.raw.SVGTextElement
 import scala.scalajs.js
 import scala.scalajs.js.`|`
 import scala.scalajs.js.annotation.JSName
@@ -15,7 +16,7 @@ class StoryBoard(
   var fontSize: String = js.native
   var fontFamily: String = js.native
   var onTick: js.Function1[EventArgs, Unit] = js.native
-  var storylabel: Any = js.native
+  var storylabel: SVGTextElement = js.native
 
   def addOrderRule(
     odering: String | js.Array[String] | js.Function2[Any, Any, String],
