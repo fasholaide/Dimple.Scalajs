@@ -15,7 +15,6 @@ class Chart(
   var data: js.Array[js.Object with js.Dynamic] | js.Array[js.Dictionary[String]]
 ) extends js.Object {
 
-  type Stringy = String | js.Array[String]
   type Primitives = String | Int
   type Seriez = Series | js.Array[Series]
 
@@ -35,18 +34,18 @@ class Chart(
 
   def addAxis(
     postion: String,
-    categoryFields: Stringy = null,
+    categoryFields: String | js.Array[String] = null,
     measure: String = "",
     timeField: String = ""): Axis = js.native
 
   def addCategoryAxis(
     position: String,
-    measure: Stringy
+    measure: String | js.Array[String]
   ): Axis = js.native
 
   def addColorAxis(
     measure: String,
-    colors: Stringy = null
+    colors: String | js.Array[String] = null
   ): Axis = js.native
 
   def addLegend(
@@ -71,7 +70,7 @@ class Chart(
   def addPctAxis(
     position: String,
     measure: String,
-    categories: Stringy = null
+    categories: String | js.Array[String] = null
   ): Axis = js.native
 
   def addTimeAxis(
@@ -82,7 +81,7 @@ class Chart(
   ): Axis = js.native
 
   def addSeries(
-    categoryFields: Stringy = null,
+    categoryFields: String | js.Array[String] = null,
     plotFunction: Plot,
     axes: Axis | js.Array[Axis] = null
   ): Series = js.native

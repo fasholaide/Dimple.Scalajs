@@ -29,3 +29,8 @@ object PlotBubble extends Plot {
 @js.native
 object PlotLine extends Plot {
 }
+
+@JSName("dimple.plot.pie")
+@js.native
+object PlotPie extends Plot {
+}

@@ -19,7 +19,7 @@ class Series(
   aggregateMethod: js.Function0[Int],
   stacked: Boolean
 ) extends js.Object {
-  var aggregate: js.Function0[Int] = js.native
+  var aggregate: js.Function2[js.Object, js.Object, js.Object] = js.native
   var barGap: Float = js.native
   var c: Axis = js.native
   var data: js.Array[Any] = js.native
@@ -29,6 +29,9 @@ class Series(
   var x: Axis = js.native
   var y: Axis = js.native
   var z: Axis = js.native
+  var radius: Int = js.native
+  var innerRadius: String = js.native
+  var outerRadius: String = js.native
 
   def addEventHandler(
     event: String,
