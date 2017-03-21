@@ -15,9 +15,6 @@ class Chart(
   var data: js.Array[js.Object with js.Dynamic] | js.Array[js.Dictionary[String]]
 ) extends js.Object {
 
-  type Primitives = String | Int
-  type Seriez = Series | js.Array[Series]
-
   var axes: js.Array[Axis] = js.native
   var customClassList: js.Any = js.native
   var defaultColors: js.Array[Color] = js.native
@@ -49,12 +46,13 @@ class Chart(
   ): Axis = js.native
 
   def addLegend(
-    x: Primitives,
-    y: Primitives,
-    width: Primitives,
-    height: Primitives,
+    x: String | Int,
+    y: String | Int,
+    width: String | Int,
+    height: String | Int,
     horizontalAlign: String = "left",
-    series: Seriez): Unit = js.native
+    series: Series | js.Array[Series]
+  ): Unit = js.native
 
   def addLogAxis(
     position: String,

@@ -18,9 +18,9 @@ class Legend(
   horizontalAlign: String = "left",
   series: Series | js.Array[Series]
 ) extends js.Object {
-  val fontSize: String = js.native
-  val fontFamily: String = js.native
-  val shapes: js.Any = js.native
-  val horizontalPadding: Int = js.native
-  val verticalPadding: Int = js.native
+  var fontSize: String = js.native
+  var fontFamily: String = js.native
+  var shapes: js.Any = js.native
+  var horizontalPadding: Int = js.native
+  var verticalPadding: Int = js.native
 }
