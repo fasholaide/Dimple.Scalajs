@@ -6,8 +6,8 @@ import scala.scalajs.js.annotation.JSName
 @JSName("dimple.plot")
 @js.native
 trait Plot extends js.Object {
-  val stacked: Boolean = js.native
-  val supports: String = js.native
+  def stacked: Boolean = js.native
+  def supports: String = js.native
 }
 
 @JSName("dimple.plot.area")
