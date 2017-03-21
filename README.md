@@ -7,4 +7,6 @@ Scala.js facade for Dimple.js library. Dimple.js is based on [d3.js](https://d3j
 
 An example application was written to show how this library could be used [here](https://github.com/fasholaide/Dimple.Scalajs.Example). The application show cases how a Bar Chart and a Line Chart can be constructed.
 
+P.S. To use this library now, you could just publish to your local maven directory by runing `sbt publish` and add the following `"org.dimple.scalajs" % "dimple-scalajs_sjs0.6_2.11" % "0.1-SNAPSHOT"` to the list of dependencies to your build.sbt file.
+
 Ahoy!
